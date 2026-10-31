@@ -1,0 +1,25 @@
+PackageIdentifier: FantasmaGlad.Bonk
+PackageVersion: 0.0.3
+InstallerType: zip
+NestedInstallerType: portable
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/FantasmaGlad/Bonk/releases/download/v0.0.3/bonk-0.0.3-windows-x86_64.zip
+    InstallerSha256: 335B463201393C8A2CAB33C9D5A50D70DBF2D9E668E78DC62C3B7EB14F999A23
+    NestedInstallerFiles:
+      - RelativeFilePath: bonk-0.0.3-windows-x86_64\bonk.exe
+        PortableCommandAlias: bonk
+  - Architecture: arm64
+    InstallerUrl: https://github.com/FantasmaGlad/Bonk/releases/download/v0.0.3/bonk-0.0.3-windows-aarch64.zip
+    InstallerSha256: 80B902AB6455FFC179FA9D471B9A6E78F80669D7FCD0224C755EEF85C200879C
+    NestedInstallerFiles:
+      - RelativeFilePath: bonk-0.0.3-windows-aarch64\bonk.exe
+        PortableCommandAlias: bonk
+  - Architecture: x86
+    InstallerUrl: https://github.com/FantasmaGlad/Bonk/releases/download/v0.0.3/bonk-0.0.3-windows-i686.zip
+    InstallerSha256: 9AFC06770B2160646EDC88ADE411ECEEC3672EB6A55DBF146A1ED882DCC5AFDB
+    NestedInstallerFiles:
+      - RelativeFilePath: bonk-0.0.3-windows-i686\bonk.exe
+        PortableCommandAlias: bonk
+ManifestType: installer
+ManifestVersion: 1.12.0
