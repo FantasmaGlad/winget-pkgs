@@ -8,5 +8,5 @@ PackageUrl: https://bonk-os.app
 License: MIT
 LicenseUrl: https://github.com/FantasmaGlad/Bonk/blob/main/LICENSE
 ShortDescription: Création de supports d'amorçage (clés USB et disques externes), interface graphique et ligne de commande.
-ManifestType: defaultLocale
+ManifestType: locale
 ManifestVersion: 1.12.0
