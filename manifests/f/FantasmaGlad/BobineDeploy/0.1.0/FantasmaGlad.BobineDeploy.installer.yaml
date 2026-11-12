@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: FantasmaGlad.BobineDeploy
+PackageVersion: 0.1.0
+InstallerType: nullsoft
+Scope: user
+UpgradeBehavior: install
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/FantasmaGlad/bobine-deploy/releases/download/v0.1.0/Bobine-Deploy-Setup-0.1.0-x64.exe
+    InstallerSha256: D752DD087F1CD65B483AC6E45D7B81B3B0F4EC746023073CDAD2FFDE7B7B89A1
+  - Architecture: arm64
+    InstallerUrl: https://github.com/FantasmaGlad/bobine-deploy/releases/download/v0.1.0/Bobine-Deploy-Setup-0.1.0-arm64.exe
+    InstallerSha256: 8F4515B6FB3AB47443DD37E9C51AC5566DC1794FBADE1FC3D5D2F90734F49DC6
+ManifestType: installer
+ManifestVersion: 1.12.0
