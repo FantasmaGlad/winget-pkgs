@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: FantasmaGlad.BobineDeploy
+PackageVersion: 0.1.0
+PackageLocale: en-US
+Publisher: FantasmaGlad
+PublisherUrl: https://github.com/FantasmaGlad
+PackageName: Bobine Deploy
+PackageUrl: https://github.com/FantasmaGlad/bobine-deploy
+License: AGPL-3.0-or-later
+LicenseUrl: https://github.com/FantasmaGlad/bobine-deploy/blob/main/LICENSE
+ReleaseNotesUrl: https://github.com/FantasmaGlad/bobine-deploy/releases/tag/v0.1.0
+ShortDescription: 'Install Bobine on a mini PC of your network over SSH, from a window or the command line.'
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
